@@ -1,6 +1,6 @@
 # Reaction-Master
 
-Game Rules 
+GAME RULES 
 
 Objective: React to the LED lights by pressing the correct buttons within a time limit to advance through levels. 
 
@@ -13,7 +13,7 @@ Presses Per Level: Each level requires 5 correct button presses to advance to th
 Game Over: The game ends if the player presses the wrong button or fails to press any button within the time limit. 
 
 
-User Input Controls 
+USER INPUT CONTROLS 
 
 Slide Switch: 
 
@@ -40,7 +40,7 @@ Function: Player input to react to all LEDs being lit.
 Control: When all LEDs (index 10) are lit, pressing both buttons simultaneously counts as a correct reaction. 
 
 
-Sensors and Their Functions 
+SENSORS AND THEIR FUNCTIONS
 
 Slide Switch: 
 
@@ -80,7 +80,7 @@ LED Indexes:
 
 10: All LEDs (Blue). 
 
-Reaction Time and Mapping 
+REACTION TIME AND MAPPING
 
 Initial Reaction Time Limit: 1000 milliseconds. 
 
@@ -117,7 +117,7 @@ Score Tracking: Each successful reaction increments the score by 1.
 Level Advancement: After 5 successful reactions, the level advances, and the reaction time limit decreases. 
 
 
-Game End Conditions 
+GAME END CONDITIONS
 
 Incorrect Button Press: Ends the game and plays a game over tone. 
 
